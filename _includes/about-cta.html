@@ -1,0 +1,18 @@
+<section class="about-cta">
+  <div class="cta-grid">
+    <div class="cta-text">
+      <h2 class="cta-heading">Joybarǵa úles qosıń</h2>
+      <p class="cta-desc">Hámmesi GitHub arqalı ashıq isleydi, siz de qáteliklerdi dúzetiwińiz yamasa jańa temalar haqqında jazıwıńız múmkin.</p>
+    </div>
+    <div class="cta-buttons">
+      {% if site.howitworks.repo %}
+        <a href="{{ site.howitworks.repo }}" class="cta-btn cta-btn-primary">GitHub-ta kóriw →</a>
+      {% endif %}
+      {% for link in site.howitworks.footer_links %}
+        {% if link.label == "Telegram" %}
+          <a href="{{ link.url }}" class="cta-btn cta-btn-secondary">Telegram kanal</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
