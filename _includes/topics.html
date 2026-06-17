@@ -1,0 +1,16 @@
+<section class="topics">
+  <div class="topics-header">
+    <h2 class="topics-heading">Neni úyrenemiz?</h2>
+  </div>
+  <div class="topics-list">
+    {% for topic in site.data.topics %}
+      <a href="{{ topic.url }}" class="topic-row">
+        <span class="topic-num">{{ topic.number }}</span>
+        <div class="topic-info">
+          <div class="topic-title">{{ topic.title }}</div>
+          <div class="topic-desc">{{ topic.description }}</div>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</section>
