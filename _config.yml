@@ -1,0 +1,23 @@
+title: "Qalay isleydi"
+lang: kaa
+theme: howitworks-theme
+baseurl: ""
+url: "https://qalayisleydi.uz"
+
+howitworks:
+  wordmark: "Qalay isleydi"
+  tagline: "Hámme ushın qaraqalpaq tilinde biypul hám ashıq bilim joybarı."
+  nav:
+    - label: "Temalar"
+      url: "/"
+    - label: "Joybar haqqında"
+      url: "/joybar"
+  footer_links:
+    - label: "Telegram"
+      url: "#"
+    - label: "GitHub"
+      url: "#"
+  copyright: "© 2026 · Ashıq derek"
+  dark_mode: true
+  edit_base_url: "https://github.com/qalayisleydi/"
+  repo: "https://github.com/qalayisleydi/qalayisleydi"
