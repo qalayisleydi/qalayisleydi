@@ -18,19 +18,7 @@ homepage:
     - number: "01"
       title: "Internet qalay isleydi?"
       description: "Paketler, protokollar hám pútkil dúniyanı baylanıstırǵan tarmaq."
-      url: "#"
-    - number: "02"
-      title: "Tarmaqlar hám protokollar"
-      description: "Maǵlıwmat bir kompyuterden ekinshisine qalay jetip baradı?"
-      url: "#"
-    - number: "03"
-      title: "Programmalastırıw tili qalay jaratıladı?"
-      description: "Kompilyator, sintaksis hám mashina tili haqqında."
-      url: "#"
-    - number: "04"
-      title: "Algoritmler hám maǵlıwmat dúzilisi"
-      description: "Máselelerdi qádembe-qádem sheshiwdiń tiykarları."
-      url: "#"
+      url: "https://internet.qalayisleydi.uz"
 
 # ============================================
 # Joybar haqqında (About the Project)
