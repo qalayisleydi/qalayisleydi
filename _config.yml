@@ -6,7 +6,7 @@ url: "https://qalayisleydi.uz"
 
 howitworks:
   wordmark: "Qalay isleydi"
-  tagline: "Hámme ushın qaraqalpaq tilinde biypul hám ashıq bilim joybarı."
+  tagline: "Hámme ushın biypul hám ashıq bilim"
   nav:
     - label: "Temalar"
       url: "/"
@@ -14,9 +14,9 @@ howitworks:
       url: "/joybar"
   footer_links:
     - label: "Telegram"
-      url: "#"
+      url: "https://t.me/qalayisleydi/"
     - label: "GitHub"
-      url: "#"
+      url: "https://github.com/qalayisleydi/"
   copyright: "© 2026 · Ashıq derek"
   dark_mode: true
   edit_base_url: "https://github.com/qalayisleydi/"
