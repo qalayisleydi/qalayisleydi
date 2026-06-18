@@ -11,7 +11,7 @@ howitworks:
     - label: "Temalar"
       url: "/"
     - label: "Joybar haqqında"
-      url: "/joybar"
+      url: "/about"
   footer_links:
     - label: "Telegram"
       url: "https://t.me/qalayisleydi/"
