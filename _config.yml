@@ -8,9 +8,9 @@ howitworks:
   wordmark: "Qalay isleydi"
   tagline: "Hámme ushın biypul hám ashıq bilim"
   nav:
-    - label: "Temalar"
+    - label: "BAS BET"
       url: "/"
-    - label: "Joybar haqqında"
+    - label: "JOYBAR HAQQÍNDA"
       url: "/about"
   footer_links:
     - label: "Telegram"
