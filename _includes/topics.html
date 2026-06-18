@@ -1,9 +1,9 @@
 <section class="topics">
   <div class="topics-header">
-    <h2 class="topics-heading">Neni úyrenemiz?</h2>
+    <h2 class="topics-heading">{{ site.data.content.homepage.topics_heading }}</h2>
   </div>
   <div class="topics-list">
-    {% for topic in site.data.topics %}
+    {% for topic in site.data.content.homepage.topics %}
       <a href="{{ topic.url }}" class="topic-row">
         <span class="topic-num">{{ topic.number }}</span>
         <div class="topic-info">

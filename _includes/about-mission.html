@@ -1,20 +1,19 @@
 <section class="about-pullquote">
-  <p class="pullquote-text">Bilim hesh kimnen alıs emes, biz quramalı temalardı ápiwayı tilde úyretemiz.</p>
+  <p class="pullquote-text">{{ site.data.content.joybar.pullquote | strip }}</p>
 </section>
 
 <section class="about-story-stats">
   <div class="story-side">
-    <p>Qaraqalpaq tilinde texnologiya hám ilim boyınsha sapalı materiallar kóp emes. Kópshilik sapalı derekler orıs yamasa anglichan tilinde.</p>
-    <p>«Qalay isleydi» usı máselege sál bolsa da sheshim beriw ushın baslandı.</p>
+    {% for paragraph in site.data.content.joybar.story %}
+      <p>{{ paragraph | strip }}</p>
+    {% endfor %}
   </div>
   <div class="stats-side">
-    <div class="stat-item">
-      <div class="stat-number">1+</div>
-      <div class="stat-label">Jarıyalanǵan tema</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-number">100%</div>
-      <div class="stat-label">Biypul hám ashıq</div>
-    </div>
+    {% for stat in site.data.content.joybar.stats %}
+      <div class="stat-item">
+        <div class="stat-number">{{ stat.number }}</div>
+        <div class="stat-label">{{ stat.label }}</div>
+      </div>
+    {% endfor %}
   </div>
 </section>

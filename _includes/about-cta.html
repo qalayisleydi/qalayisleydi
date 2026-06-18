@@ -1,16 +1,16 @@
 <section class="about-cta">
   <div class="cta-grid">
     <div class="cta-text">
-      <h2 class="cta-heading">Joybarǵa úles qosıń</h2>
-      <p class="cta-desc">Hámmesi GitHub arqalı ashıq isleydi, siz de qáteliklerdi dúzetiwińiz yamasa jańa temalar haqqında jazıwıńız múmkin.</p>
+      <h2 class="cta-heading">{{ site.data.content.joybar.cta.heading }}</h2>
+      <p class="cta-desc">{{ site.data.content.joybar.cta.description | strip }}</p>
     </div>
     <div class="cta-buttons">
       {% if site.howitworks.repo %}
-        <a href="{{ site.howitworks.repo }}" class="cta-btn cta-btn-primary">GitHub-ta kóriw →</a>
+        <a href="{{ site.howitworks.repo }}" class="cta-btn cta-btn-primary">{{ site.data.content.joybar.cta.primary_label }}</a>
       {% endif %}
       {% for link in site.howitworks.footer_links %}
         {% if link.label == "Telegram" %}
-          <a href="{{ link.url }}" class="cta-btn cta-btn-secondary">Telegram kanal</a>
+          <a href="{{ link.url }}" class="cta-btn cta-btn-secondary">{{ site.data.content.joybar.cta.secondary_label }}</a>
         {% endif %}
       {% endfor %}
     </div>

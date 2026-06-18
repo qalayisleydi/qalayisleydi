@@ -1,0 +1,73 @@
+# ============================================
+# Bas bet (Homepage)
+# ============================================
+homepage:
+
+  # --- Hero section ---
+  hero:
+    wordmark_line1: "Qalay"
+    wordmark_line2: "isleydi?"
+    lead: |
+      Hár bir nárseniń qalay isleytuǵının qaraqalpaq tilinde tereń hám ápiwayı túsindiremiz.
+    secondary: |
+      Texnologiya, ilim hám tárijiybeler — barlıǵı bir orında, barlıǵı siz ushın. Temanı saylań hám oqıwdı baslań.
+
+  # --- Topics section ---
+  topics_heading: "Neni úyrenemiz?"
+  topics:
+    - number: "01"
+      title: "Internet qalay isleydi?"
+      description: "Paketler, protokollar hám pútkil dúniyanı baylanıstırǵan tarmaq."
+      url: "#"
+    - number: "02"
+      title: "Tarmaqlar hám protokollar"
+      description: "Maǵlıwmat bir kompyuterden ekinshisine qalay jetip baradı?"
+      url: "#"
+    - number: "03"
+      title: "Programmalastırıw tili qalay jaratıladı?"
+      description: "Kompilyator, sintaksis hám mashina tili haqqında."
+      url: "#"
+    - number: "04"
+      title: "Algoritmler hám maǵlıwmat dúzilisi"
+      description: "Máselelerdi qádembe-qádem sheshiwdiń tiykarları."
+      url: "#"
+
+# ============================================
+# Joybar haqqında (About the Project)
+# ============================================
+joybar:
+
+  # --- Hero section ---
+  hero:
+    wordmark_line1: "Joybar"
+    wordmark_line2: "haqqında"
+    lead: |
+      «Qalay isleydi» — bul qaraqalpaq tilinde sapalı hám túsinikli bilim jaratıw boyınsha ashıq joybar.
+    secondary: |
+      Biziń maqsetimiz — quramalı ilimlerdi ańsat túsiniw múmkinshiligin jaratıw.
+
+  # --- Pull quote ---
+  pullquote: |
+    Bilim hesh kimnen alıs emes, biz quramalı temalardı ápiwayı tilde úyretemiz.
+
+  # --- Story paragraphs ---
+  story:
+    - |
+      Qaraqalpaq tilinde texnologiya hám ilim boyınsha sapalı materiallar kóp emes. Kópshilik sapalı derekler orıs yamasa anglichan tilinde.
+    - |
+      «Qalay isleydi» usı máselege sál bolsa da sheshim beriw ushın baslandı.
+
+  # --- Stats ---
+  stats:
+    - number: "1+"
+      label: "Jarıyalanǵan tema"
+    - number: "100%"
+      label: "Biypul hám ashıq"
+
+  # --- Call to action ---
+  cta:
+    heading: "Joybarǵa úles qosıń"
+    description: |
+      Hámmesi GitHub arqalı ashıq isleydi, siz de qáteliklerdi dúzetiwińiz yamasa jańa temalar haqqında jazıwıńız múmkin.
+    primary_label: "GitHub-ta kóriw →"
+    secondary_label: "Telegram kanal"
