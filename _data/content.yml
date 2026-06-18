@@ -15,8 +15,7 @@ homepage:
   # --- Topics section ---
   topics_heading: "Neni úyrenemiz?"
   topics:
-    - number: "01"
-      title: "Internet qalay isleydi?"
+    - title: "Internet qalay isleydi?"
       description: "Paketler, protokollar hám pútkil dúniyanı baylanıstırǵan tarmaq."
       url: "https://internet.qalayisleydi.uz"
 
