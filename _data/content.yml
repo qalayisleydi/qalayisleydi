@@ -18,6 +18,9 @@ homepage:
     - title: "Internet qalay isleydi?"
       description: "Paketler, protokollar hám pútkil dúniyanı baylanıstırǵan tarmaq."
       url: "https://internet.qalayisleydi.uz"
+    - title: "HTTP qalay isleydi?"
+      description: "Soraw, juwap hám veb-betlerdi júklew mexanizmi."
+      url: "https://http.qalayisleydi.uz"
 
 # ============================================
 # Joybar haqqında (About the Project)
