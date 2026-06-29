@@ -1,8 +1,12 @@
 title: "Qalay isleydi"
+description: "Hámme ushın ashıq hám biypul bilim — texnologiyalardıń qalay isleytuǵının qaraqalpaq tilinde úyreniń."
 lang: kaa
 theme: howitworks-theme
 baseurl: ""
 url: "https://qalayisleydi.uz"
+
+plugins:
+  - jekyll-sitemap
 
 howitworks:
   wordmark: "Qalay isleydi"
