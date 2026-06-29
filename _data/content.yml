@@ -49,7 +49,7 @@ joybar:
     - number: "1+"
       label: "Jarıyalanǵan tema"
     - number: "100%"
-      label: "Biypul hám ashıq"
+      label: "Ashıq hám biypul"
 
   # --- Call to action ---
   cta:
